@@ -43,7 +43,9 @@ export const Login = props => {
             <section>
                 <form className="form--login" onSubmit={handleLogin}>
                     <h1>Game Rater</h1>
-                    <h2>Please sign in</h2>
+
+                    <h2>Please sign in fool</h2>
+
                     <fieldset>
                         <label htmlFor="inputEmail"> Email address </label>
                         <input ref={email} type="email" id="email" className="form-control"  placeholder="Email address" required autoFocus />
